@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="card bg-light">
+            <div class="card-header" >
+            <h3 class="text-success">Formulario Bootstrap</h3>
+        </div>
+        
+            
+            <form>
+                <div class="mb-3">
+                    <label for="tipoIdentificacion" form="form-label">Tipo identificación</label>
+                    <select id="tipoIdentificacion" name="tipoIdentificacion" class="form-select">
+                        <option value=""></option>
+                        <option value="Cédula">Cédula</option>
+                        <option value="NIT">NIT</option>
+                        <option value="Cédula extranjería">Cédula extranjería</option>
+                    </select>
+                </div>
+
+                <div class="mb-3>
+                    <label for="identificacion" form="form-label">Identificación: </label>
+                    <input type="text" size="12" id="identificacion" name="identificacion" class="form-control">
+                </div>
+
+                <div class="mb-3>
+                    <label for="nombreCompleto" form="form-label">Nombre completo: </label>
+                    <input type="text" size="30" id="nombreCompleto" name="nombreCompleto" class="form-control>
+                </div>
+
+                <div class="mb-3">
+                    <label for="correoElectronico">Correo electrónico: </label>
+                    <input type="text" size="30" id="correoElectronico" name="correoElectronico" class="form-control>
+                </div>
+
+                <div class="mb-3">
+                    <label for="fechaIngreso">Fecha de ingreso: </label>
+                    <input type="text" size="11" id="fechaIngreso" name="fechaIngreso" class="form-control>
+                </div>
+
+                <div>
+                    <div>
+                        <input type="checkbox" id="activo" name="activo" form="form-check-input">
+                        <label for="activo">Activo: </label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="capacidadCredito">Capacidad de crédito: </label>
+                    <input type="text" size="9" id="capacidadCredito" name="capacidadCredito">
+                </div>
+
+                <div class="mb-3">
+                    <label for="claveUsuario">Asignar clave: </label>
+                    <input type="password" size="10" id="claveUsuario" name="claveUsuario">
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar" class="btn-btn-outline-primary btn-sm" />
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
